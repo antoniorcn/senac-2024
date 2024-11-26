@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "hello-senac",
+    "slug": "hello-senac",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.antoniorcarvalho.hellosenac"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "57ba17d4-0825-426f-8db8-1c38b1d8f8af"
+      }
+    },
+    "owner": "antoniorcarvalho",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/57ba17d4-0825-426f-8db8-1c38b1d8f8af"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+GET https://senac-2024-fsd-default-rtdb.firebaseio.com/contatos.json?auth=eyJhbGciOiJSUzI1NiIsImtpZCI6ImU2YWMzNTcyNzY3ZGUyNjE0ZmM1MTA4NjMzMDg3YTQ5MjMzMDNkM2IiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vc2VuYWMtMjAyNC1mc2QiLCJhdWQiOiJzZW5hYy0yMDI0LWZzZCIsImF1dGhfdGltZSI6MTczMDc2MDcyOSwidXNlcl9pZCI6IlRPOWhTbFBnQTlkZWo0MWtyRUN0c0gya2ZSejIiLCJzdWIiOiJUTzloU2xQZ0E5ZGVqNDFrckVDdHNIMmtmUnoyIiwiaWF0IjoxNzMwNzYwNzI5LCJleHAiOjE3MzA3NjQzMjksImVtYWlsIjoiam9hb0B0ZXN0ZS5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsiam9hb0B0ZXN0ZS5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.W4qRtyC6WSm0n54IAeC7b4RqC4rkoy0YHvQa4Tvk1nHrkctaPIp989i5RckYUZG252JRApEVlaA5ek1ldjQcQjZUQq46pruLOjhVVY1Untk7kfRdUoIfl7jyFAUEtq3c_GNz0-AZtFWncSZVp0t3nn1VykfJ3c86YL5IHUDp908CQmqPyfJybiH0xQPCkgbRPUfZ5fBNixiGtlKcIYII6tWPgtqnmXQQYJpGuAhLWCNGFmbU7Y2R2HrmzuO6qHIggcvoXsxt36Zyh0_YoGeX2sd5mTc_rcS7uPlchIbz_UiR2rNOde74wwn6Ko1oLvjczRwJDFT7O2Wvfwb0TBvKLw HTTP/1.1
+
+
+
+###
+### email	string	The email for the user to create.
+## password	string	The password for the user to create.
+## returnSecureToken	boolean	Whether or not to return an ID and refresh token. Should always be true.
+###
+
+POST https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=[APIKEY] HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "joao2@teste.com",
+    "password": "abc123",
+    "returnSecureToken": true
+}
+
